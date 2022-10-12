@@ -102,5 +102,5 @@ options = trainingOptions("adam", ...
     'LearnRateDropPeriod',20, ... 
     'Verbose',0);
 
-net = trainNetwork(XTrain,TTrain,lgraph,options);
+net = trainNetwork(XTrain,YTrain,lgraph,options);
 
